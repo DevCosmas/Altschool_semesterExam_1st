@@ -321,7 +321,7 @@ article {
   display: flex;
   justify-content: space-between;
   background-color: #1e3448;
-  opacity: 0.9;
+  opacity: 0.95;
   margin-top: 5rem;
 }
 .form--bgr-img {
@@ -390,12 +390,15 @@ input {
   color: #fff;
   border: none;
   border-radius: 15px;
-  padding: 1rem 0 2rem 0rem;
+  padding: 1rem 0 2.5rem 0rem;
   text-align: center;
   font-size: 1.3rem;
-
   text-transform: capitalize;
   margin-bottom: 2rem;
+}
+.trim {
+  width: 20px;
+  height: 15px;
 }
 .FAQ {
   display: flex;
@@ -431,7 +434,7 @@ input {
   margin: 0 auto;
   justify-content: space-between;
   padding: 1.5rem 0.5rem 0.3rem 2rem;
-  border-bottom: 0.2px solid black;
+  border-bottom: 0.2px solid #d6d6d6;
   box-sizing: border-box;
 }
 .faqs-p {
@@ -444,6 +447,7 @@ input {
   top: 50%;
   color: #141414;
   font-family: sans-serif;
+  line-height: 1.5;
 }
 .faqs--icon {
   width: 20px;
@@ -453,9 +457,6 @@ input {
   stroke: #000;
   width: 20px;
   height: 20px;
-}
-.lst {
-  border: none;
 }
 .form--copy {
   height: 15rem;
@@ -489,8 +490,8 @@ input {
   left: 10%;
   top: 15%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 2rem 2rem;
 }
 .ft--icons {

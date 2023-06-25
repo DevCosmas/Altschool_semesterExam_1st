@@ -381,7 +381,7 @@
             ><input class="input" placeholder="paste URL here" type="text"
           /></label>
           <label for="choices" class="input--flex">
-            <select name="" id="domains" class="input--flex-child input">
+            <select name="domains" id="domains" class="input--flex-child input">
               <option value=".com">choose a domain</option>
               <option value=".com">@name.com</option>
               <option value=".com">@name.ng</option>
@@ -393,7 +393,14 @@
               placeholder="type alias here"
             />
           </label>
-          <button class="form--btn">trim URL</button>
+          <button class="form--btn">
+            trim URL
+            <img
+              src="/project_img/magic wand (1).png"
+              alt="a magic wand"
+              class="trim"
+            />
+          </button>
           <p class="form--text">
             By clicking TrimURL, I agree to the
             <strong> Terms of Service, Privacy Policy</strong>
@@ -515,7 +522,7 @@
               class="faqs--icon"
             />
           </span>
-          <span class="faqs--p-ics-ct lst">
+          <span class="faqs--p-ics-ct">
             <p class="faqs-p">
               Is there an API available for integrating the URL shortening
               service into my own applications or websites?
