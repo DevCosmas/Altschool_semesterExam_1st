@@ -1,0 +1,343 @@
+/* RESSPONSIVE SMALL DESKTOP SCREEN: 1200px(75em) */
+@media (max-width: 75em) {
+  html {
+    font-size: 85%;
+    font-family: "gilroy-medium", sans-serif;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .hero--page {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 3rem 5rem 0 2rem;
+    box-sizing: border-box;
+  }
+  nav {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 6rem;
+  }
+  ul {
+    margin-left: -8rem;
+  }
+  li {
+    padding-right: 0.5rem;
+  }
+  .active {
+    padding-left: 4rem;
+
+    margin-left: 5rem;
+  }
+  .nav-btn--container {
+    margin-left: -4rem;
+  }
+  .hero--introParagraph {
+    width: 85%;
+    height: 90%;
+    margin: 0 auto;
+    padding-top: 5rem;
+  }
+  .hero--p {
+    font-size: 1.5rem;
+    line-height: 1.7;
+  }
+  .hero {
+    width: 100%;
+    text-align: center;
+  }
+  .group2 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  /* main section for 1200px */
+  summary {
+    width: 100%;
+    min-height: 10rem;
+    background-color: #f9fbfd;
+    padding-left: 15%;
+    padding-top: 3%;
+  }
+  .grid--container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 20rem repeat(4, 10rem);
+    justify-content: center;
+    column-gap: 1.8rem;
+  }
+  .grid--h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    line-height: 1.1;
+    letter-spacing: -2px;
+  }
+  .article--grid--container {
+    width: 75%;
+    display: grid;
+    grid-template-columns: 25rem 20rem;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    padding-top: 8%;
+    gap: 5rem 5rem;
+  }
+  .gridSpan {
+    grid-column: span 2/3;
+  }
+  .FAQ {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 90rem;
+    margin-bottom: 5rem;
+  }
+  .FAQ--container {
+    width: 80%;
+    height: 55rem;
+    margin-left: -25rem;
+    margin-top: 5rem;
+    box-sizing: border-box;
+  }
+  .xtra-info {
+    top: 60%;
+  }
+  .FCh {
+    margin-bottom: 3.5rem;
+  }
+  footer {
+    height: 100%;
+  }
+  .footer--grid-ct {
+    position: absolute;
+    width: 80%;
+    min-height: 60rem;
+    left: 5%;
+    top: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 20rem);
+    grid-template-rows: 5rem 5rem;
+    gap: 1.5rem 1.5rem;
+  }
+  .ft--icons {
+    grid-row: span 1/-6;
+  }
+  .sub--ft-ct {
+    width: 100%;
+    height: 3rem;
+    margin-top: 20rem;
+    margin-left: 20%;
+  }
+  .footer {
+    height: 100%;
+  }
+}
+/* RESSPONSIVE SMALL TABLET SCREEN: 950px(59.375em)  */
+@media (max-width: 59.375em) {
+  body {
+    overflow-x: hidden;
+  }
+  nav {
+    justify-content: space-between;
+  }
+  ul,
+  .disp {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hero--headig {
+    text-align: left;
+    line-height: 1.7;
+    font-size: 2rem;
+  }
+  .hero--p {
+    text-align: left;
+    font-size: 1.1rem;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3rem;
+  }
+  .hero {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  summary {
+    min-height: 15rem;
+    margin-bottom: 2rem;
+  }
+  .grid--container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 18rem repeat(2, 10rem);
+    grid-template-rows: repeat(2, 5rem);
+    justify-content: center;
+    gap: 2rem 2rem;
+    box-sizing: border-box;
+  }
+  .shft {
+    grid-row: span 2/3;
+  }
+  .article--grid--container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 20rem 15rem;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    padding-top: 8%;
+    gap: 3rem 3rem;
+  }
+  .FAQ {
+    min-height: 100rem;
+  }
+  .FAQ--container {
+    width: 80%;
+    height: 55rem;
+    margin-left: -20rem;
+    box-sizing: border-box;
+  }
+  .xtra-info {
+    top: 60%;
+  }
+  .FCh {
+    margin-bottom: 5rem;
+  }
+  .footer--grid-ct {
+    position: absolute;
+    width: 70%;
+    min-height: 60rem;
+    left: 10%;
+    top: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 20rem);
+    grid-template-rows: 5rem 5rem;
+    gap: 2rem 2rem;
+  }
+}
+/* RESSPONSIVE SMALL PHONE SCREEN: 600px(37.5em) */
+@media (max-width: 37.5em) {
+  body {
+    overflow-x: hidden;
+  }
+  .hero--img {
+    width: 100%;
+  }
+  .group2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  summary {
+    min-height: 30rem;
+    margin-bottom: 2rem;
+    padding-left: 5rem;
+    box-sizing: border-box;
+  }
+  .grid--container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 10rem 10rem;
+    grid-template-rows: repeat(2, 5rem);
+    justify-content: center;
+    gap: 1.5rem 2.5rem;
+  }
+
+  .shft {
+    grid-column: span 2/3;
+  }
+  .footer--grid-ct,
+  .article--grid--container {
+    display: flex;
+    flex-direction: column;
+  }
+  .FAQ--container {
+    width: 90%;
+    height: 55rem;
+    margin-left: -27rem;
+    box-sizing: border-box;
+  }
+  .sub--ft-ct {
+    width: 100%;
+    height: 3rem;
+    margin-top: 70rem;
+    margin-left: 5%;
+    font-size: 1rem;
+  }
+  form {
+    width: 25rem;
+    left: 5%;
+  }
+  .FAQ {
+    min-height: 110rem;
+  }
+  .abs-h1 {
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+  .abs-link {
+    margin-top: 1.5rem;
+  }
+  .lt {
+    border: none;
+    margin-top: 1.5rem;
+  }
+}
+/* 
+*THIS SECTION WAS RESERVED TO DEAL WITH SLASHED ABSOLUTE 
+*POSITIONED IMAGE
+*/
+@media (max-width: 63em) {
+  .vector--img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transform: translate(10%, -600%);
+  }
+}
+@media (max-width: 59.375em) {
+  .vector--img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 44em) {
+  .vector--img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transform: translate(-10%, -280%);
+  }
+  .hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 34.4em) {
+  .vector--img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transform: translate(-100%, -40%);
+  }
+}
+@media (max-width: 28em) {
+  .vector--img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transform: translate(-70%, -350%);
+  }
+  summary {
+    min-height: 40rem;
+    margin-bottom: 3rem;
+  }
+  .grid--container {
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+  }
+}
