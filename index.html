@@ -11,6 +11,10 @@
       href="https://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20877,20878,20879,20880"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
     <!-- <link
       href="https://fonts.cdnfonts.com/css/gilroy-bold?styles=20879"
       rel="stylesheet"
@@ -71,6 +75,33 @@
               d="M224,120v16a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V120a8,8,0,0,1,8-8H216A8,8,0,0,1,224,120Zm-8,56H40a8,8,0,0,0-8,8v16a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V184A8,8,0,0,0,216,176Zm0-128H40a8,8,0,0,0-8,8V72a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V56A8,8,0,0,0,216,48Z"
             ></path>
           </svg>
+        </div>
+        <div class="hamburger gone">
+          <svg
+            width="32"
+            height="32"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="cut"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </div>
+        <div class="ul-abs">
+          <li>my urls</li>
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Analytics</li>
+          <li>FAQs</li>
+          <li>login</li>
+          <li>try for free</li>
         </div>
       </nav>
       <div class="hero--introParagraph">
@@ -232,7 +263,151 @@
           From catering for your personal, business, event, socials needs, you
           can be rest assured we have you in mind in our pricing.
         </p>
-        <div class="accordion--flex-container">
+        <!-- FOR SLIDER COMPONENT; DISPLAY HIDDEN -->
+        <div class="swipe-container">
+          <div class="swiper dismB">
+            <div class="accordion--flex-container swiper-wrapper">
+              <div class="swiper-slide accordions--flex-child slide">
+                <div class="wrapper">
+                  <h5 class="accordion--heading">basic</h5>
+                  <h2 class="grid--h2">Free</h2>
+                  <p class="grid--p">Free plan for all users</p>
+                  <ul class="accordion--items">
+                    <li class="items">
+                      <img
+                        src="/project_img/check-circle.png"
+                        alt="a check icon"
+                        class="acc--img"
+                      />Unlimited URL Shortening
+                    </li>
+                    <li class="items">
+                      <img
+                        src="/project_img/check-circle.png"
+                        alt="a check icon"
+                        class="acc--img"
+                      />Basic Link Analytics
+                    </li>
+
+                    <li class="items">
+                      <img
+                        src="/project_img/check-circle.png"
+                        alt="a check icon"
+                        class="acc--img"
+                      />Customizable Short Links
+                    </li>
+                    <li class="items">
+                      <img
+                        src="/project_img/check-circle.png"
+                        alt="a check icon"
+                        class="acc--img"
+                      />Standard Support
+                    </li>
+                    <li class="items">
+                      <img
+                        src="/project_img/check-circle.png"
+                        alt="a check icon"
+                        class="acc--img"
+                      />Ad-supported
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide accordions--flex-child slide not--abs">
+                <div class="wrapper wrap">
+                  <h5 class="accordion--heading">professional</h5>
+                  <h2 class="grid--h2">$15/month</h2>
+                  <p class="grid--p acc">Ideal for business creators</p>
+                  <ul class="accordion--items">
+                    <li class="items">
+                      <img
+                        src="/project_img/check-circle-white.png"
+                        alt="a check icon"
+                        class="acc--img profWhite"
+                      />Enhanced Link Analytics
+                    </li>
+                    <li class="items">
+                      <img
+                        src="/project_img/check-circle-white.png"
+                        alt="a check icon"
+                        class="acc--img"
+                      />Custom Branded Domains
+                    </li>
+
+                    <li class="items">
+                      <img
+                        src="/project_img/check-circle-white.png"
+                        alt="a check icon"
+                        class="acc--img"
+                      />Advanced Link Customization
+                    </li>
+                    <li class="items">
+                      <img
+                        src="/project_img/check-circle-white.png"
+                        alt="a check icon"
+                        class="acc--img"
+                      />Priority Support
+                    </li>
+                    <li class="items">
+                      <img
+                        src="/project_img/check-circle-white.png"
+                        alt="a check icon"
+                        class="acc--img"
+                      />Ad-free Experience
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide accordions--flex-child slide">
+                <div class="wrapper">
+                  <h5 class="accordion--heading">teams</h5>
+                  <h2 class="grid--h2">$25/month</h2>
+                  <p class="grid--p">share with up to 10 users</p>
+                  <ul class="accordion--items">
+                    <li class="items">
+                      <img
+                        src="/project_img/check-circle.png"
+                        alt="a check icon"
+                        class="acc--img"
+                      />Team Collaboration
+                    </li>
+                    <li class="items">
+                      <img
+                        src="/project_img/check-circle.png"
+                        alt="a check icon"
+                        class="acc--img"
+                      />User Roles and Permissions
+                    </li>
+
+                    <li class="items">
+                      <img
+                        src="/project_img/check-circle.png"
+                        alt="a check icon"
+                        class="acc--img"
+                      />Enhanced Security
+                    </li>
+                    <li class="items">
+                      <img
+                        src="/project_img/check-circle.png"
+                        alt="a check icon"
+                        class="acc--img"
+                      />API Access
+                    </li>
+                    <li class="items">
+                      <img
+                        src="/project_img/check-circle.png"
+                        alt=""
+                        class="acc--img"
+                      />Dedicated Account Manager
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <!-- DEMACATION TO AVOID CONLFLICTOF INTREST -->
+        <div class="accordion--flex-container hid">
           <div class="accordions--flex-child">
             <div class="wrapper">
               <h5 class="accordion--heading">basic</h5>
@@ -676,5 +851,27 @@
         <a href="#" class="sub-link lt">ⓒScissor 2023</a>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        loop: true,
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>

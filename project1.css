@@ -24,6 +24,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  position: relative;
 }
 ul {
   margin-left: -5rem;
@@ -64,9 +65,38 @@ li {
   font-size: 1.2rem;
   cursor: pointer;
 }
+.ul-abs {
+  position: absolute;
+  width: 50%;
+  min-height: 15rem;
+  top: 70%;
+  right: -1%;
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-bottom: 3%;
+  text-align: left;
+  z-index: 1000;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  opacity: 2;
+  background-color: #fff;
+  border-radius: 5px 5px 5px 5px;
+  display: none;
+}
+.ul-abs > li {
+  display: block;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  text-transform: capitalize;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.ul-abs > li:hover {
+  color: #005ae2;
+}
 .blue--bgrcl {
   background-color: #005ae2;
 }
+.gone,
 .hamburger {
   display: none;
 }
@@ -240,6 +270,13 @@ article {
   font-family: sans-serif;
   padding-bottom: 15rem;
 }
+.dismB {
+  width: 25%;
+  height: 35rem;
+  box-sizing: border-box;
+  padding-bottom: 5rem;
+}
+
 .accordion--flex-container {
   width: 90%;
   min-height: 30rem;
@@ -248,12 +285,11 @@ article {
   box-sizing: border-box;
   padding-left: 3%;
   padding-right: 5%;
+  padding-top: 5rem;
   justify-content: space-between;
   position: relative;
 }
-.accordions--flex-container:last-child() {
-  padding-left: 50rem;
-}
+
 .accordions--flex-child {
   border: 0.001px solid #005ae2;
   border-radius: 8px;
@@ -276,6 +312,7 @@ article {
   color: #fff;
   border: none;
 }
+
 .wrapper {
   padding-left: 2rem;
 }
@@ -317,6 +354,32 @@ article {
 }
 .sp {
   border: 0.2px solid #005ae2;
+}
+.slide {
+  position: relative;
+  display: inline;
+  left: -5%;
+  width: 15rem;
+  min-height: 25rem;
+  padding-bottom: 3rem;
+  border-top: 0.000001px solid #005ae2;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  transform: translate(-250%, -1500%);
+}
+.wrap {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+}
+.not--abs {
+  background-color: #1e3448;
+  color: #fff;
+}
+.swipe-container {
+  display: none;
 }
 .form {
   position: relative;
